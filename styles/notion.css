@@ -332,3 +332,12 @@
   border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
   border-image-slice: 1;
 }
+
+[data-block-id="3a9dbf50-d659-4174-8a06-019fbd03fe45"] {
+  font-family: monospace;
+}
+
+[data-block-id="745999a4-a0cc-4a00-ab14-0e39f4429ea5"] {
+  font-family: monospace;
+  text-align: center;
+}
