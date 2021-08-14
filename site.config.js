@@ -7,8 +7,8 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Tash Talk',
-  domain: 'ta.sh',
+  name: 'tazik.sh',
+  domain: 'tazik.sh',
   author: 'Tazik Shahjahan',
 
   // open graph metadata (optional)
@@ -19,7 +19,7 @@ module.exports = {
   // social usernames (optional)
   twitter: 'TazikShahjahan',
   github: 'ZKTKZ',
-  linkedin: 'fisch2',
+  linkedin: 'tazikshahjahan',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -47,5 +47,7 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    '/enanigans': '3a9dbf50d65941748a06019fbd03fe45' 
+  }
 }

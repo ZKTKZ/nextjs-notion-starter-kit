@@ -40,7 +40,7 @@
 }
 
 .notion-gallery-grid {
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 6vmin;
   gap: 6vmin;
 }
@@ -333,11 +333,10 @@
   border-image-slice: 1;
 }
 
-[data-block-id="3a9dbf50-d659-4174-8a06-019fbd03fe45"] {
+div.notion-title {
   font-family: monospace;
 }
 
-[data-block-id="745999a4-a0cc-4a00-ab14-0e39f4429ea5"] {
+div.breadcrumbs {
   font-family: monospace;
-  text-align: center;
 }
