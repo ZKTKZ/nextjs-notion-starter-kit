@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '745999a4a0cc4a00ab140e39f4429ea5',
+  rootNotionPageId: 'e467859a7f43463b96ed72e959a7b067',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -12,14 +12,14 @@ module.exports = {
   author: 'Tazik Shahjahan',
 
   // open graph metadata (optional)
-  description: 'Example site description',
+  description: 'Tazik Shahjahan',
   socialImageTitle: 'Tazik Shahjahan TM',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
   twitter: 'TazikShahjahan',
   github: 'ZKTKZ',
-  linkedin: 'tazikshahjahan',
+  linkedin: 'tazik-shahjahan-539477195',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -48,6 +48,7 @@ module.exports = {
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
+    '/': 'e467859a7f43463b96ed72e959a7b067',
     '/enanigans': '3a9dbf50d65941748a06019fbd03fe45' 
   }
 }
